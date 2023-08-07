@@ -1,0 +1,85 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Background color for the entire body */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsive navigation menu */
+.nav-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff; /* Background color for the main content area */
+}
+
+.hero {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.destinations,
+.tips {
+    padding: 30px 0;
+    background-color: #f9f9f9; /* Background color for the sections */
+}
+
+.destination-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.destination-gallery img {
+    max-width: 100%; /* Reduce image size to fit container width */
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
